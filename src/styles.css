@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "roboto";
+  src: local("Oxygen"), url(./assets/fonts/roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "poppins";
+  src: local("Oxygen"), url(src/assets/fonts/poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.error-snackbar{
+  background: #f5151e;
+  color: white;
+}
